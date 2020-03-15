@@ -1,7 +1,7 @@
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
-  // background-position: top center;
+  background-position: center;
   background-blend-mode: overlay;
   background-color: $primary;
   height: 400px;
@@ -56,7 +56,7 @@
   }
 }
 .hero-image-fullscreen {
-  height: 100vh;
+  height: 80vh;
 }
 .hero-image-setheight {
   height: 460px;

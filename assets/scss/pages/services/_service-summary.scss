@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   .service-image {
-    flex: 0 0 40px;
+    flex: 0 0 36px;
     margin-right: 10px;
     img {
       max-width: 100%;
@@ -14,11 +14,30 @@
     .service-title {
       font-family: $font-family-heading;
       font-size: 1.5rem;
+      margin-bottom: 2rem;
     }
     p {
       color: #666;
       font-size: 0.9rem;
       width: 90%;
+    }
+    ul {
+      li {
+        list-style: circle;
+      }
+    }
+  }
+  .accordion {
+    .btn {
+      &.disabled,
+      &:disabled {
+        opacity: 1;
+        color: #2b2d32;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 }
